@@ -1,6 +1,8 @@
 // 12S24043 - DESNITA PARDOSI
 // 12S24018 - KELVIN  YOHANES PUTRA
 
+
+
 import java.util.*;
 import java.lang.Math;
 
@@ -8,21 +10,36 @@ public class T01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String isbn, judul, penulis, penerbit, formatBuku;
-        int tahunTerbit, stok;
-        double hargaPembelian, minimumMargin, rating;
+        String iSBN;
 
-        isbn = input.nextLine();
-        judul = input.nextLine();
-        penulis = input.nextLine();
-        penerbit = input.nextLine();
-        formatBuku = input.nextLine();
-        tahunTerbit = Integer.parseInt(input.nextLine());
-        stok = Integer.parseInt(input.nextLine());
-        hargaPembelian = Double.parseDouble(input.nextLine());
-        minimumMargin = Double.parseDouble(input.nextLine());
-        rating = Double.parseDouble(input.nextLine());
-        System.out.println(isbn + "|" + judul + "|" + penulis + "|" + penerbit + "|" + formatBuku + "|" + tahunTerbit + "|" + stok + "|" + hargaPembelian + "|" + minimumMargin + "|" + rating);
+        iSBN = input.nextLine();
+        String jUDUL;
+
+        jUDUL = input.nextLine();
+        String pENULIS;
+
+        pENULIS = input.nextLine();
+        int tAHUNTERBIT;
+
+        tAHUNTERBIT = Integer.parseInt(input.nextLine());
+        String pENERBIT;
+
+        pENERBIT = input.nextLine();
+        String fORMATBUKU;
+
+        fORMATBUKU = input.nextLine();
+        double hARGAPEMBELIAN;
+
+        hARGAPEMBELIAN = Double.parseDouble(input.nextLine());
+        int mINIMUMMARGIN;
+
+        MINIMUNMARGIN = input.nextLine();
+        int sTOK;
+
+        sTOK = Integer.parseInt(input.nextLine());
+        double rATING;
+
+        rATING = Double.parseDouble(input.nextLine());
+        System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tAHUNTERBIT + "|" + pENERBIT + "|" + fORMATBUKU + "|" + hARGAPEMBELIAN + "|" + mINIMUMMARGIN + "|" + sTOK + "|" + rATING);
     }
 }
-
