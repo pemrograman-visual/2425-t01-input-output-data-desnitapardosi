@@ -4,27 +4,34 @@
         <attribute name="name" value="T01"/>
         <attribute name="authors" value="ACER"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-09-06 11:32:21 AM"/>
+        <attribute name="saved" value="2024-09-06 02:51:54 PM"/>
         <attribute name="created" value="QUNFUjtMQVBUT1AtR1UwSUNSUFU7MjAyNC0wOS0wNjsxMDoxMTo0NyBBTTsyNjQ5"/>
-        <attribute name="edited" value="QUNFUjtMQVBUT1AtR1UwSUNSUFU7MjAyNC0wOS0wNjsxMTozMjoyMSBBTTsxOzI3NTM="/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtR1UwSUNSUFU7MjAyNC0wOS0wNjswMjo1MTo1NCBQTTsyOzI3NzY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Isbn, Judul, Penulis, Penerbit, FormatBuku" type="String" array="False" size=""/>
-            <declare name="TahunTerbit, Stok" type="Integer" array="False" size=""/>
-            <declare name="HargaPembelian, MinimumMargin, Rating" type="Real" array="False" size=""/>
-            <input variable="Isbn"/>
-            <input variable="Judul"/>
-            <input variable="Penulis"/>
-            <input variable="Penerbit"/>
-            <input variable="FormatBuku"/>
-            <input variable="TahunTerbit"/>
-            <input variable="Stok"/>
-            <input variable="HargaPembelian"/>
-            <input variable="MinimumMargin"/>
-            <input variable="Rating"/>
-            <output expression="isbn&amp;&quot;|&quot;&amp;Judul&amp;&quot;|&quot;&amp;Penulis&amp;&quot;|&quot;&amp;Penerbit&amp;&quot;|&quot;&amp;FormatBuku&amp;&quot;|&quot;&amp;TahunTerbit&amp;&quot;|&quot;&amp;Stok&amp;&quot;|&quot;&amp;HargaPembelian&amp;&quot;|&quot;&amp;MinimumMargin&amp;&quot;|&quot;&amp;Rating" newline="True"/>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <input variable="ISBN"/>
+            <declare name="JUDUL" type="String" array="False" size=""/>
+            <input variable="JUDUL"/>
+            <declare name="PENULIS" type="String" array="False" size=""/>
+            <input variable="PENULIS"/>
+            <declare name="TAHUNTERBIT" type="Integer" array="False" size=""/>
+            <input variable="TAHUNTERBIT"/>
+            <declare name="PENERBIT" type="String" array="False" size=""/>
+            <input variable="PENERBIT"/>
+            <declare name="FORMATBUKU" type="String" array="False" size=""/>
+            <input variable="FORMATBUKU"/>
+            <declare name="HARGAPEMBELIAN" type="Real" array="False" size=""/>
+            <input variable="HARGAPEMBELIAN"/>
+            <declare name="MINIMUMMARGIN" type="Real" array="False" size=""/>
+            <input variable="MINIMUMMARGIN"/>
+            <declare name="STOK" type="Integer" array="False" size=""/>
+            <input variable="STOK"/>
+            <declare name="RATING" type="Real" array="False" size=""/>
+            <input variable="RATING"/>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;JUDUL&amp;&quot;|&quot;&amp;PENULIS&amp;&quot;|&quot;&amp;TAHUNTERBIT&amp;&quot;|&quot;&amp;PENERBIT&amp;&quot;|&quot;&amp;FORMATBUKU&amp;&quot;|&quot;&amp;HARGAPEMBELIAN&amp;&quot;|&quot;&amp;MINIMUMMARGIN&amp;&quot;|&quot;&amp;STOK&amp;&quot;|&quot;&amp;RATING" newline="True"/>
         </body>
     </function>
 </flowgorithm>
