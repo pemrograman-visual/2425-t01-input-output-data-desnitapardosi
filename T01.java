@@ -1,6 +1,7 @@
 // 12S24043 - DESNITA PARDOSI
 // 12S24018 - KELVIN  YOHANES PUTRA
 
+
 import java.util.*;
 import java.lang.Math;
 
@@ -30,8 +31,10 @@ public class T01 {
 
         hARGAPEMBELIAN = Double.parseDouble(input.nextLine());
         int mINIMUMMARGIN;
+        double mINIMUMMARGIN;
 
         mINIMUMMARGIN = Integer.parseInt(input.nextLine());
+        mINIMUMMARGIN = Double.parseDouble(input.nextLine());
         int sTOK;
 
         sTOK = Integer.parseInt(input.nextLine());
