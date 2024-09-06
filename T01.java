@@ -31,7 +31,7 @@ public class T01 {
         hARGAPEMBELIAN = Double.parseDouble(input.nextLine());
         int mINIMUMMARGIN;
 
-        MINIMUNMARGIN = input.nextLine();
+        mINIMUMMARGIN = Integer.parseInt(input.nextLine());
         int sTOK;
 
         sTOK = Integer.parseInt(input.nextLine());
