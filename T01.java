@@ -1,1 +1,27 @@
-// NIM - Your Name
+// 12S24043 - DESNITA PARDOSI
+// 12S24018 - KELVIN  YOHANES PUTRA
+
+import java.util.*;
+import java.lang.Math;
+
+public class Program {
+    private static Scanner input = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        String isbn, judul, penulis, penerbit, formatBuku;
+        int tahunTerbit, stok;
+        double hargaPembelian, minimumMargin, rating;
+
+        isbn = input.nextLine();
+        judul = input.nextLine();
+        penulis = input.nextLine();
+        penerbit = input.nextLine();
+        formatBuku = input.nextLine();
+        tahunTerbit = input.nextInt();
+        stok = input.nextInt();
+        hargaPembelian = input.nextDouble();
+        minimumMargin = input.nextDouble();
+        rating = input.nextDouble();
+        System.out.println(isbn + "|" + judul + "|" + penulis + "|" + penerbit + "|" + formatBuku + "|" + tahunTerbit + "|" + stok + "|" + hargaPembelian + "|" + minimumMargin + "|" + rating);
+    }
+}
